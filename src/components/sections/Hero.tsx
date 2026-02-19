@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -62,9 +63,9 @@ export default function Hero() {
                     transition={{ duration: 0.6, delay: 1 }}
                     className="mt-16 md:mt-32 md:ml-auto"
                 >
-                    <a href="#about" className="inline-block bg-white text-black font-semibold text-sm uppercase tracking-widest px-8 py-4 hover:bg-white/80 transition-colors">
+                    <Link href="/about" className="inline-block bg-white text-black font-semibold text-sm uppercase tracking-widest px-8 py-4 hover:bg-white/80 transition-colors">
                         Explore Now
-                    </a>
+                    </Link>
                 </motion.div>
             </div>
 
