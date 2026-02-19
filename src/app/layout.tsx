@@ -26,9 +26,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark scroll-smooth">
+    <html lang="en" className="dark scroll-smooth" suppressHydrationWarning>
       <body
         className={`${inter.variable} ${dancingScript.variable} antialiased bg-black text-white font-sans selection:bg-white selection:text-black`}
+        suppressHydrationWarning
       >
         <Navbar />
         <main className="sm:pr-16 md:pr-20">

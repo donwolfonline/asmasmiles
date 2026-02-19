@@ -61,7 +61,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 1 }}
-                    className="mt-16 md:mt-32 md:ml-auto"
+                    className="mt-12 md:mt-32 md:ml-auto"
                 >
                     <Link href="/about" className="inline-block bg-white text-black font-semibold text-sm uppercase tracking-widest px-8 py-4 hover:bg-white/80 transition-colors">
                         Explore Now

@@ -39,7 +39,7 @@ export default function Projects() {
                             whileInView={{ opacity: 1 }}
                             transition={{ delay: 0.3 }}
                             viewport={{ once: true }}
-                            className="absolute -left-4 md:left-0 top-1/2 -translate-y-1/2 text-[10rem] md:text-[14rem] font-bold text-white/10 z-0 leading-none"
+                            className="absolute -left-4 md:left-0 top-1/2 -translate-y-1/2 text-[8rem] md:text-[14rem] font-bold text-white/5 z-0 leading-none"
                         >
                             01
                         </motion.div>
@@ -116,7 +116,7 @@ export default function Projects() {
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             viewport={{ once: true }}
-                            className="text-[6rem] md:text-[8rem] font-bold text-white leading-none"
+                            className="text-[5rem] md:text-[8rem] font-bold text-white leading-none"
                         >
                             02
                         </motion.div>
@@ -137,7 +137,7 @@ export default function Projects() {
                     Selected Works 2023-2025
                 </motion.h3>
 
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8">
                     {[
                         '1534528741775-53994a69daeb',
                         '1517487881594-2787fef5ebf7',

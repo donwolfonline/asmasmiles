@@ -36,7 +36,7 @@ export default function Services() {
 
                 {/* Left side: Images and Header */}
                 <div className="lg:col-span-5 flex flex-col gap-6 font-bold uppercase tracking-tight">
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <motion.div
                             initial={{ opacity: 0, scale: 0.95 }}
                             whileInView={{ opacity: 1, scale: 1 }}
@@ -80,7 +80,7 @@ export default function Services() {
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: 0.2 }}
-                            className="font-cursive text-5xl md:text-6xl text-white/80 absolute -bottom-8 md:-bottom-12 right-0 md:right-12"
+                            className="font-cursive text-4xl md:text-6xl text-white/80 absolute -bottom-6 md:-bottom-12 right-0 md:right-12"
                         >
                             Price list
                         </motion.p>
